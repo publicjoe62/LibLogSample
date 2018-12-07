@@ -18,11 +18,11 @@ namespace LibLogSample
             XmlConfigurator.Configure(
                             LogManager.GetRepository(Assembly.GetAssembly(typeof(LogManager))));
 
-            mLogger.Debug("LibLog Sample1 :: start");
+            mLogger.Debug("LibLog Sample3 :: start");
 
             foo.Bar();
 
-            mLogger.Debug("LibLog Sample2 :: end");
+            mLogger.Debug("LibLog Sample4 :: end");
         }
     }
 }
